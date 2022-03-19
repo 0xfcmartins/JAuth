@@ -1,0 +1,16 @@
+### Execute register
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+  "username": "Francisco",
+  "password": "123456789",
+  "email": "test@test.pt"
+}
+
+### Execute login
+POST {{host}}/auth/doLogin
+Content-Type: application/json
+
+{
+}
